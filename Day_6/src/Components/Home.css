@@ -1,0 +1,33 @@
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    height: 80px;
+  
+  }
+  
+  nav ul li {
+    margin-top: 30px;
+    margin-right: 200px; 
+  }
+  
+  nav ul li a {
+    word-spacing: 50px;
+    color: rgb(181, 46, 234);
+    text-decoration: none;
+    padding: 10px;
+    width: 75%;
+    letter-spacing: normal;
+      line-height: 1.3em;
+    justify-content: space-between; /*
+                                     The first item is flush with the start,
+                                     the last is flush with the end */
+    transition: background-color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    background-color: #000000;
+  }
